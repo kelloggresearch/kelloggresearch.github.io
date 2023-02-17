@@ -89,7 +89,15 @@ src="https://www.facebook.com/tr?id=601822208427658&ev=PageView&noscript=1"
                 </div> <!-- /.excerpt -->
                 <p data-aos="fade-up"  data-aos-delay="200">
                   <a href="#mh_section" class="btn btn-primary smoothscroll mr-1">View mental health resources</a>
-                  <a href="https://kellogg.qualtrics.com/jfe/form/SV_cTspS0JEz3aBVD8" class="btn btn-outline-primary smoothscroll">Fill out a survey</a>
+                  <a href="https://kellogg.qualtrics.com/jfe/form/SV_cTspS0JEz3aBVD8" ></a>
+                  
+                  <button id="btn_press" class="btn btn-outline-primary smoothscroll">Fill out a survey</button>
+<script type="text/javascript">
+  $('#btn_press').click(function() {
+    fbq('track', 'clicked_survey');
+  });
+</script>
+                  
                 </p>
               </div>
               
